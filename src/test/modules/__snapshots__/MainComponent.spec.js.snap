@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainComponent Test renders MainComponent  1`] = `
+<div>
+  <div
+    className="spinner"
+  />
+  <div
+    className="logo"
+  >
+    <img
+      src="https://developers.giphy.com/static/img/dev-logo-lg.7404c00322a8.gif"
+      width="200px"
+    />
+  </div>
+  <div
+    className="wrap"
+  >
+    <div
+      className="search"
+    >
+      <input
+        className="searchTerm"
+        id="seachBox"
+        onKeyPress={[Function]}
+        placeholder="Press Enter To Search...."
+        type="text"
+      />
+    </div>
+  </div>
+  <ConnectFunction
+    searchText=""
+  />
+</div>
+`;

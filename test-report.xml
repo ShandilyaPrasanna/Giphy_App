@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\testApp\src\test\modules\components\GIFPlayerComponent.spec.js">
+    <testCase name="GIFPlayerComponent Test renders GIFPlayerComponent " duration="16"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\testApp\src\test\modules\actions\index.spec.js">
+    <testCase name="Check actions Test for action getGIFSByKeywordAction " duration="57"/>
+    <testCase name="Check actions Test for action getTrendingGIFS " duration="18"/>
+    <testCase name="Check actions Test for action isLoading " duration="3"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\testApp\src\test\modules\MainComponent.spec.js">
+    <testCase name="MainComponent Test renders MainComponent " duration="25"/>
+    <testCase name="MainComponent Test check onChange handler " duration="50"/>
+    <testCase name="MainComponent Test mapStateToProps" duration="2"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\testApp\src\test\modules\components\Grid.spec.js">
+    <testCase name="Grid Test renders Grid " duration="28"/>
+    <testCase name="Grid Test onCLick should open popover with GIF " duration="11"/>
+    <testCase name="Grid Test test closePlayer callcack " duration="2"/>
+    <testCase name="Grid Test test mapStateToProps " duration="2"/>
+    <testCase name="Grid Test test handleScroll function " duration="5"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\testApp\src\test\modules\reducers\getGIFReducer.spec.js">
+    <testCase name="Check reducers Functionality Test for reducer type GET_GIFIMAGES function " duration="5"/>
+    <testCase name="Check reducers Functionality Test for reducer type IS_LOADING function " duration="1"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\testApp\src\index.test.js">
+    <testCase name="renders without crashing" duration="1"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\testApp\src\test\modules\utils\GiphyAppUtils.spec.js">
+    <testCase name="Check Utils Functionality check getMapped Data Function " duration="1"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\testApp\src\App.test.js">
+    <testCase name="renders without crashing" duration="61"/>
+  </file>
+</testExecutions>

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Test renders Grid  1`] = `
+<Fragment>
+  <div
+    className="Grid"
+  >
+    <div
+      className="imageDiv"
+      onClick={[Function]}
+    >
+      <img
+        alt="Loading"
+        className="imageTag"
+        src="https://media2.giphy.com/media/7lD9Gz5FxpRCg/giphy-fixed_height.gif"
+      />
+    </div>
+  </div>
+</Fragment>
+`;

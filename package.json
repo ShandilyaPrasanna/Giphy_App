@@ -1,0 +1,51 @@
+{
+  "name": "giphy_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-to-json": "^3.3.5",
+    "fetch-mock": "^7.3.1",
+    "jest-sonar-reporter": "^2.0.0",
+    "node-fetch": "^2.3.0",
+    "prettier": "^1.17.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "prettier": "prettier --write ./src/**/*.{js,jsx,json,css}",
+    "build": "react-scripts build",
+    "snapshot": "react-scripts test --env=jsdom",
+    "test": "cross-env CI=true  NODE_PATH=./src react-scripts test --env=jsdom --coverage --testResultsProcessor jest-sonar-reporter",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/src/registerServiceWorker.js",
+      "!**/src/modules/**/resources/simple/**"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text",
+      "cobertura"
+    ]
+  }
+}
